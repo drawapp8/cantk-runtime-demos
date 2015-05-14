@@ -3,7 +3,7 @@ var guiData = {
     "name": "Device-General",
     "w": 552,
     "h": 878,
-    "x": 626,
+    "x": 553,
     "y": 0,
     "text": "",
     "enable": true,
@@ -114,6 +114,8 @@ var guiData = {
                     "runtimeVisible": true,
                     "current": 2,
                     "showLoadingProgress": true,
+                    "soundMusicAutoPlay": true,
+                    "soundEffectsEnalbe": true,
                     "progressBarBorderColor": "White",
                     "progressBarFillColor": "Gold",
                     "progressTextColor": "Green",
@@ -134,7 +136,8 @@ var guiData = {
                     "soundEffectURLs": "cantk-game\/assets\/sound\/disappear.mp3",
                     "soundMusicURLs": "cantk-game\/assets\/sound\/bg.mp3",
                     "soundMusicLoop": true,
-                    "soundMusicAutoPlay": true,
+                    "soundMusicsPlaying": false,
+                    "soundMusicsEnalbe": false,
                     "style": {
                         "lineWidth": 2,
                         "lineColor": "Green",
@@ -1361,6 +1364,7 @@ var guiData = {
                                     "isUICheckBox": true,
                                     "isUIElement": true,
                                     "hasChildren": true,
+                                    "sticky": true,
                                     "style": {
                                         "lineWidth": 2,
                                         "lineColor": "#7d471b",
@@ -1408,6 +1412,7 @@ var guiData = {
                                     "isUICheckBox": true,
                                     "isUIElement": true,
                                     "hasChildren": true,
+                                    "sticky": true,
                                     "style": {
                                         "lineWidth": 2,
                                         "lineColor": "#7d471b",
