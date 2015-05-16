@@ -1,10 +1,8 @@
-# cantk-runtime
+# Cantk-Runtime
 
-提供高效的HTML5 Canvas绘图API和兼容HTML5 Audio的游音乐/音效播放接口。
+Cantk-Runtime是通用的HTML5 Canvas 2D游戏引擎运行库，让HTML5游戏的性能飞起来。Cantk-Runtime以PhoneGap插件的方式提供，从此结束PhoneGap低性能的恶名！
 
-[CanTK](https://github.com/drawapp8/cantk)是开源的HTML5 APP/Game Engine。
-
-[TangIDE](http://www.tangide.com/gamebuilder.php)是在线开发HTML5游戏和应用的平台。
+Cantk-Runtime提供高效的HTML5 Canvas绘图API、兼容HTML5 Audio的游音乐/音效播放接口和原生的编辑器接口， 让HTML5 Canvas 2D游戏只需要简单的适配就可以跑起来。
 
 ## 特色
 * 0.开源。开放全部源码，可用于商业和非商业的环境。
@@ -21,6 +19,21 @@
 
 * 6.支持所有HTML5 Canvas 2D游戏引擎。cantk-runtime并非为cantk专用，其它游戏引擎如egret.js, pixi.js, phaser.js, panda.js, egret.js, lufy.js, soya2d和其它基于有HTML5 Canvas 2D游戏引擎都可以在上面运行。
 
+## 使用方法
+
+```
+phonegap plugin add https://github.com/drawapp8/cantk-runtime.git
+```
+
+## 相关链接
+
+[CanTK](https://github.com/drawapp8/cantk)是开源的HTML5 APP/Game Engine。
+
+[TangIDE](http://www.tangide.com/gamebuilder.php)是在线开发HTML5游戏和应用的平台。
+
+[cantk-runtime-demos](https://github.com/drawapp8/cantk-runtime-demos) 几个使用cantk-runtime的示例项目，目前有松鼠跑酷，小红帽快跑和FlappyBird。
+
+
 ## 其它类似平台
 
 * 1.[Ejecta-X](https://github.com/Wizcorp/Ejecta-X): 体积大.
@@ -33,5 +46,9 @@
 
 ## APK示例
 
-* 1.[松鼠跑酷](http://gamebuilder.duapp.com/download/nutrush.apk)
+* 1.[松鼠跑酷](https://github.com/drawapp8/cantk-runtime-demos/raw/master/NutRush/platforms/android/ant-build/CordovaApp-debug.apk)
+
+* 2.[小红帽快跑](https://github.com/drawapp8/cantk-runtime-demos/raw/master/RedHat/platforms/android/ant-build/CordovaApp-debug.apk)
+ 
+* 3.[FlappyBird](https://github.com/drawapp8/cantk-runtime-demos/raw/master/FlappyBird/platforms/android/ant-build/CordovaApp-debug.apk)
 

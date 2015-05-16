@@ -327,7 +327,7 @@ static CommandResult command_clip(Command* cmd) {
 	ww = r - x;
 	hh = b - y;
 
-	LOGI("clip: %d %d %d %d\n", xx, yy, ww, hh);
+	LOGV("clip: %d %d %d %d\n", xx, yy, ww, hh);
 	nvgScissor(ctx, xx, yy, ww, hh);
 
 //for debug

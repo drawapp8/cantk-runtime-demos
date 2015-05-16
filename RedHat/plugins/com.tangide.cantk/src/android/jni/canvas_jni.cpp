@@ -239,6 +239,10 @@ JNIAPIINT Java_com_tangide_cantk_CanvasJNI_setRenderCommands(JNIEnv * env, jobje
 		fps = (1000 * gGraphicContext.renderTimes)/dt;
 	}
 
+	fps = fps > 60 ? 60 : fps;
+
+	LOGI("fps=%d\n", fps);
+
 	return fps;
 }
 

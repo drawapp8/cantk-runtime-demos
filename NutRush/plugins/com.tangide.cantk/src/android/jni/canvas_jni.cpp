@@ -143,7 +143,7 @@ static char* graphic_context_get_render_commands() {
 		gGraphicContext.commandsChanged = false;
 		strcpy(gGraphicContext.commands[0], gGraphicContext.commands[1]);
 		pthread_mutex_unlock(&gGraphicContext.mutex);
-		LOGI("renderCommands:%s\n", gGraphicContext.commands[0]);
+		//LOGI("renderCommands:%s\n", gGraphicContext.commands[0]);
 	}
 
 	return gGraphicContext.commands[0];
@@ -238,6 +238,10 @@ JNIAPIINT Java_com_tangide_cantk_CanvasJNI_setRenderCommands(JNIEnv * env, jobje
 	if(dt > 0) {
 		fps = (1000 * gGraphicContext.renderTimes)/dt;
 	}
+
+	fps = fps > 60 ? 60 : fps;
+
+//	LOGI("fps=%d\n", fps);
 
 	return fps;
 }
