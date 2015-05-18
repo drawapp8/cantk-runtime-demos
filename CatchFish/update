@@ -1,0 +1,4 @@
+phonegap plugin remove com.tangide.cantk
+phonegap plugin add /work/phonegap/plugins/cantk-runtime
+phonegap build android -d
+adb install -r platforms/android/ant-build/CordovaApp-debug.apk
