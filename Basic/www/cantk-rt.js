@@ -192,8 +192,12 @@ CantkRT.createMultiLineTextEditor= function() {
 	return null;
 }
 
-window.requestAnimationFrame = window.requestAnimationFrame || window.mozRequestAnimationFrame 
-	|| window.webkitRequestAnimationFrame || window.msRequestAnimationFrame;
+window.requestAnimationFrame = window.requestAnimationFrame 
+	|| window.mozRequestAnimationFrame 
+	|| window.webkitRequestAnimationFrame 
+	|| window.msRequestAnimationFrame || function(callback) {
+		return setTimeout(callback, 16);
+	}
 
 CantkRT.requestAnimFrame = function(callback) {
 	return window.requestAnimationFrame(callback);

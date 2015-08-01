@@ -19,7 +19,7 @@
     },
     "installed_plugins": {
         "com.tangide.cantk": {
-            "PACKAGE_NAME": "com.tangide.flappybird"
+            "PACKAGE_NAME": "com.tangide.basic"
         }
     },
     "dependent_plugins": {}

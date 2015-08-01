@@ -1,8 +1,10 @@
 # Cantk-Runtime
 
-Cantk-Runtime是通用的HTML5 Canvas 2D游戏引擎运行库，让HTML5游戏的性能飞起来。Cantk-Runtime以PhoneGap插件的方式提供，从此结束PhoneGap低性能的恶名！
+[Cantk-Runtime](https://github.com/drawapp8/cantk-runtime)是通用的HTML5 Canvas 2D游戏引擎运行库，让HTML5游戏的性能飞起来。Cantk-Runtime以PhoneGap插件的方式提供，从此结束PhoneGap低性能的恶名！
 
-Cantk-Runtime提供高效的HTML5 Canvas绘图API、兼容HTML5 Audio的游音乐/音效播放接口和原生的编辑器接口， 让HTML5 Canvas 2D游戏只需要简单的适配就可以跑起来。
+[Cantk-Runtime](https://github.com/drawapp8/cantk-runtime)提供高效的HTML5 Canvas绘图API、兼容HTML5 Audio的游音乐/音效播放接口和原生的编辑器接口， 让HTML5 Canvas 2D游戏只需要简单的适配就可以跑起来。
+
+*欢迎加入QQ群* ：223466431
 
 ## 特色
 * 0.开源。开放全部源码，可用于商业和非商业的环境。
@@ -24,6 +26,8 @@ Cantk-Runtime提供高效的HTML5 Canvas绘图API、兼容HTML5 Audio的游音�
 ```
 phonegap plugin add https://github.com/drawapp8/cantk-runtime.git
 ```
+
+API描述：https://github.com/drawapp8/cantk-runtime/wiki/API%E6%8F%8F%E8%BF%B0
 
 ## 相关链接
 
@@ -50,5 +54,5 @@ phonegap plugin add https://github.com/drawapp8/cantk-runtime.git
 
 * 2.[小红帽快跑](https://github.com/drawapp8/cantk-runtime-demos/raw/master/RedHat/platforms/android/ant-build/CordovaApp-debug.apk)
  
-* 3.[FlappyBird](https://github.com/drawapp8/cantk-runtime-demos/raw/master/FlappyBird/platforms/android/ant-build/CordovaApp-debug.apk)
+* 3.[Basic Demo](https://github.com/drawapp8/cantk-runtime-demos/raw/master/Basic/platforms/android/ant-build/CordovaApp-debug.apk)
 
