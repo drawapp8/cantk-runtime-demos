@@ -1,0 +1,10 @@
+{
+    "com.tangide.cantk": {
+        "source": {
+            "type": "local",
+            "path": "../../cantk-runtime"
+        },
+        "is_top_level": true,
+        "variables": {}
+    }
+}
